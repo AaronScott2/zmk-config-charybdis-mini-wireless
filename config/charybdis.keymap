@@ -145,8 +145,8 @@
         NAV {
             bindings = <
 &trans  &kp HOME  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp END    &kp MINUS  &kp N7                      &kp N8        &kp N9        &kp N0  &trans
-&trans  &trans    &trans    &kp DOWN      &trans     &trans     &kp EQUAL  &u_mt RIGHT_SHIFT NUMBER_4  &kp N5        &kp NUMBER_6  &mo 2   &trans
-&trans  &trans    &trans    &trans        &trans     &trans     &trans     &kp NUMBER_1                &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+&trans  &trans    &trans    &kp DOWN      &trans     &kp PAGE_UP     &kp EQUAL  &u_mt RIGHT_SHIFT NUMBER_4  &kp N5        &kp NUMBER_6  &mo 2   &trans
+&trans  &trans    &trans    &trans        &trans     &kp PAGE_DOWN     &trans     &kp NUMBER_1                &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
                             &trans        &trans     &trans     &trans     &kp RET
             >;
         };
