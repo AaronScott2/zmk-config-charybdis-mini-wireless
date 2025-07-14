@@ -13,12 +13,12 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_xy_scaler 1 2>, <&zip_temp_layer 4 400>;
+        input-processors = <&zip_xy_scaler 1 2>, <&zip_temp_layer 3 400>;
 
         // Switch to auto-mouse temp layer, decrease sensitivity
 
         scroll {
-            layers = <5>; // SCROLL
+            layers = <4>; // SCROLL
             input-processors =
                 <&zip_xy_scaler 1 5>,
                 <&zip_xy_to_scroll_mapper>,
@@ -136,7 +136,7 @@
         BASE {
             bindings = <
 &kp ESC    &kp Q             &kp W             &kp E      &kp R               &kp T    &kp Y  &kp U               &kp I      &kp O    &kp P          &kp SQT
-&kp TAB    &kp A             &kp S             &kp K      &u_mt LEFT_SHIFT F  &kp G    &kp H  &u_mt LEFT_SHIFT J  &kp K      &kp L    &kp SEMICOLON  &kp BACKSPACE
+&kp TAB    &kp A             &kp S             &kp D      &u_mt LEFT_SHIFT F  &kp G    &kp H  &u_mt LEFT_SHIFT J  &kp K      &kp L    &kp SEMICOLON  &kp BACKSPACE
 &kp MINUS  &u_mt LEFT_WIN Z  &u_mt LEFT_ALT X  &kp C      &kp V               &kp B    &kp N  &kp M               &kp COMMA  &kp DOT  &kp FSLH       &kp GRAVE
                                                &kp LCTRL  &kp SPACE           MO_TOG(1)    MO_TOG(1)  &kp RET
             >;
