@@ -135,19 +135,19 @@
 
         BASE {
             bindings = <
-&kp ESC    &kp Q             &kp W             &kp E      &kp R               &kp T    &kp Y  &kp U               &kp I      &kp O    &kp P          &kp SQT
-&kp TAB    &kp A             &kp S             &kp D      &u_mt LEFT_SHIFT F  &kp G    &kp H  &u_mt LEFT_SHIFT J  &kp K      &kp L    &kp SEMICOLON  &kp BACKSPACE
-&kp MINUS  &u_mt LEFT_WIN Z  &u_mt LEFT_ALT X  &kp C      &kp V               &kp B    &kp N  &kp M               &kp COMMA  &kp DOT  &kp FSLH       &kp GRAVE
-                                               &kp LCTRL  &kp SPACE           MO_TOG(1)    MO_TOG(1)  &kp RET
+&kp ESC    &kp Q             &kp W             &kp E      &kp R               &kp T         &kp Y      &kp U               &kp I      &kp O    &kp P          &kp SQT
+&kp TAB    &kp A             &kp S             &kp D      &u_mt LEFT_SHIFT F  &kp G         &kp H      &u_mt LEFT_SHIFT J  &kp K      &kp L    &kp SEMICOLON  &kp BACKSPACE
+&kp MINUS  &u_mt LEFT_WIN Z  &u_mt LEFT_ALT X  &kp C      &kp V               &kp B         &kp N      &kp M               &kp COMMA  &kp DOT  &kp FSLH       &kp GRAVE
+                                               &kp LCTRL  &kp SPACE           MO_TOG(1)     MO_TOG(1)  &kp RET
             >;
         };
 
         NAV {
             bindings = <
-&trans  &kp HOME  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &kp END    &kp MINUS  &kp N7                      &kp N8        &kp N9        &kp N0  &trans
-&kp DELETE  &trans    &trans    &kp DOWN      &trans     &kp PAGE_UP     &kp EQUAL  &u_mt RIGHT_SHIFT NUMBER_4  &kp N5        &kp NUMBER_6  &mo 2   &trans
-&trans  &trans    &trans    &trans        &trans     &kp PAGE_DOWN     &trans     &kp NUMBER_1                &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                            &trans        &trans     &trans     &trans     &kp RET
+&trans      &kp HOME   &kp LEFT   &kp UP_ARROW   &kp RIGHT     &kp END               &kp MINUS    &kp N7                      &kp N8        &kp N9        &kp N0  &trans
+&kp DELETE  &trans     &trans     &kp DOWN       &trans        &kp PAGE_UP           &kp EQUAL    &u_mt RIGHT_SHIFT NUMBER_4  &kp N5        &kp NUMBER_6  &mo 2   &trans
+&trans      &trans     &trans     &trans         &trans        &kp PAGE_DOWN         &trans       &kp NUMBER_1                &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                                  &trans         &trans        &trans                &trans       &kp RET
             >;
         };
 
@@ -165,7 +165,7 @@
 &trans  &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                        &mkp LCLK  &trans  &mkp RCLK    &trans  &trans
+                        &trans     &trans  &trans       &trans  &trans
             >;
         };
 
